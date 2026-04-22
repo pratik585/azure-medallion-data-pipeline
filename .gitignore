@@ -1,0 +1,16 @@
+# Ignore Terraform secrets
+*.tfvars
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Ignore Large Data Files
+Data/
+*.zip
+*.xlsx
+*.csv
+*.json
+
+# Ignore System Files
+.DS_Store
+Thumbs.db
